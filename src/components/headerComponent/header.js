@@ -8,11 +8,6 @@ class Header extends Component {
         return (
             <header>
 
-                <div className='logo'>
-                    LOGO
-
-                </div>
-
                 <nav>
                     <ul>
                         <li>
@@ -39,8 +34,6 @@ class Header extends Component {
                         </li>
                     </ul>
                 </nav>
-
-
             </header>
         );
     }
