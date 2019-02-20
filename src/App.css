@@ -1,0 +1,46 @@
+header {
+    position: relative;
+    display: block;
+    width: 100%;
+    background: black;
+    color: white;
+    height: 70px;
+}
+
+header .logo {
+    position: absoulue;
+    top: 50%; left: 15px;
+}
+
+header nav {
+    position: absoulue;
+    top: 50%; right: 15px;
+    
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    padding-left: 11px;
+    padding-right: 15px;
+}
+
+a{
+    font-size: 15px;
+    line-height: 0%;
+    text-decoration: none; 
+    color: white;
+}
+
+a:hover {
+    color: red;
+}
+
+
+header nav {
+    text-align: right;
+}
+
+.container-fluid {
+    line-height: 24px;
+}
