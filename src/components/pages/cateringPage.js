@@ -4,7 +4,7 @@ class CateringPage extends Component {
     render() {
         return (
 
-            <div className="container-fluid">
+            <div className="page">
                 <h1>
                     Catering Page Content
                 </h1>

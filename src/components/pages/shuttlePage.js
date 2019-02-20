@@ -4,7 +4,7 @@ class ShuttlePage extends Component {
     render() {
         return (
 
-            <div className="container-fluid">
+            <div className="page">
                 <h1>
                     Shuttle Page Content
                 </h1>

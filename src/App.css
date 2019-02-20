@@ -2,6 +2,21 @@ body {
   margin: 0;
 }
 
+img {
+    margin: 0 0 15px 20px;
+    height: 40px;
+    width: 40px;
+}
+
+header {
+    position: relative;
+    display: block;
+    width: 100%;
+    background: lightcoral;
+    height: 50px;
+    
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -40,4 +55,9 @@ a:hover {
     margin-right: 5%;
     padding: 1% 0px;
     height:1000px;
+}
+
+.title {
+    margin: 0 0 0 1.5%;   
+    font-size: 200%;
 }

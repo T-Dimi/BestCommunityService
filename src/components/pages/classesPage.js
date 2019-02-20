@@ -4,7 +4,7 @@ class ClassesPage extends Component {
     render() {
         return (
 
-            <div className="container-fluid">
+            <div className="page">
                 <h1>
                     Classes Page Content
                 </h1>

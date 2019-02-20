@@ -4,7 +4,7 @@ class RoomPage extends Component {
     render() {
         return (
 
-            <div className="container-fluid">
+            <div className="page">
                 <h1>
                     Room Page Content
                 </h1>

@@ -4,7 +4,7 @@ class Equipment extends Component {
     render() {
         return (
 
-            <div className="container-fluid">
+            <div className="page">
                 <h1>
                     Equipment Page Content
                 </h1>
