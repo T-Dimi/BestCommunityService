@@ -9,7 +9,7 @@ img {
 }
 
 header {
-    position: relative;
+    position: fixed;
     display: block;
     width: 100%;
     background: lightcoral;
@@ -19,9 +19,9 @@ header {
 
 ul {
   list-style-type: none;
-  margin: 0;
+  margin: 3.1em 0 0 0;
   padding: 0;
-  width: 10%;
+  width: 9.5em;
   background-color: #f1f1f1;
   position: fixed;
   height: 100%;
@@ -51,9 +51,9 @@ a:hover {
 
 
 .page {
-    margin-left:15%;
-    margin-right: 5%;
-    padding: 1% 0px;
+    margin-left: 12em;
+    margin-right: 3em;
+    padding: 4em 0px;
     height:1000px;
 }
 
