@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 
 
-class DonateButton extends Component {
+class SignupButton extends Component {
     render() {
         return (
             <div className="">
-                <button className="">Donate Now</button>
+                <button className="">Sign up</button>
             </div>
         );
     }
 }
 
-export default DonateButton;
+export default SignupButton;
