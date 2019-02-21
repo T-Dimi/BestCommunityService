@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import DonateButton from '../buttons/donateButton';
 
 class HomePage extends Component {
     render() {
@@ -6,14 +7,12 @@ class HomePage extends Component {
 
             <div className="page">
                 <h1>
-                    Home Page Content 
+                    GIVE VOLUNTEER SERVICE WHERE YOU LIVE TODAY!
                 </h1>
+                <DonateButton />
                 <p>
-                    Lorem ipsum dolor sit amet, vel eripuit docendi albucius id, ea iusto vitae scriptorem nec. Novum accusata mei ex. Adhuc inani mediocritatem te eum, id ancillae detracto mea. No cum possim utamur imperdiet. Erant forensibus usu an, aeque quaestio per no.
-
-                    Blandit nominati consulatu est ad, eum fugit tritani debitis in. Munere repudiare constituam cu mel. Minimum voluptua ad vim, dico oratio percipit has at. Timeam accommodare ea his. Mea enim epicuri complectitur te, ad eum civibus intellegebat. Cum ad omittam abhorreant quaerendum.
-
-                    Soluta efficiendi cum ea. Cibo vocibus in sea, eum quem agam mucius eu, ne has
+                    At Best Community Service, we believe that nothing should get in the way of organizations and volunteers 
+                    coming together to do good things for the community, so we help make this happen for free.
                 </p>
             </div>
         );
