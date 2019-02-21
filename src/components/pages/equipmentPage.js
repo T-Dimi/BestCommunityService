@@ -8,13 +8,24 @@ class Equipment extends Component {
                 <h1>
                     Equipment Page Content
                 </h1>
-                <p>
-                    Lorem ipsum dolor sit amet, vel eripuit docendi albucius id, ea iusto vitae scriptorem nec. Novum accusata mei ex. Adhuc inani mediocritatem te eum, id ancillae detracto mea. No cum possim utamur imperdiet. Erant forensibus usu an, aeque quaestio per no.
-
-                    Blandit nominati consulatu est ad, eum fugit tritani debitis in. Munere repudiare constituam cu mel. Minimum voluptua ad vim, dico oratio percipit has at. Timeam accommodare ea his. Mea enim epicuri complectitur te, ad eum civibus intellegebat. Cum ad omittam abhorreant quaerendum.
-
-                    Soluta efficiendi cum ea. Cibo vocibus in sea, eum quem agam mucius eu, ne has
-                </p>
+                <div class="grid">
+                    <div class="item">
+                        <h1>project a</h1>
+                        <button>learn more</button>
+                    </div>
+                    <div class="item">
+                        <h1>project b</h1>
+                        <button>learn more</button>
+                    </div>
+                    <div class="item">
+                        <h1>project c</h1>
+                        <button>learn more</button>
+                    </div>
+                    <div class="item featured">
+                        <h1>project d</h1>
+                        <button>learn more</button>
+                    </div>
+                </div>
             </div>
         );
     }
