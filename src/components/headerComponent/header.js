@@ -1,48 +1,79 @@
 import React, { Component } from 'react';
-import logo from './logo.png';
 import {
-    Link
-} from 'react-router-dom';
+    Collapse,
+    Navbar,
+    NavbarToggler,
+    NavbarBrand,
+    Nav,
+    NavItem,
+    NavLink,
+    UncontrolledDropdown,
+    DropdownToggle,
+    DropdownMenu,
+    DropdownItem
+} from 'reactstrap';
+
 
 class Header extends Component {
-    render() {
-        return (
-            <div>
-                <header>
-                    <img src={logo} alt="Logo" /> <span className='title'>Best Community Service</span>
-                </header>
+  constructor(props) {
+    super(props);
 
-                    <nav>
-                        <ul>
-                            <li>
-                                <Link to="/">Home</Link>
-                            </li>
-                            <li>
-                                <Link to="/Equipment">Rent Equipment</Link>
-                            </li>
-                            <li>
-                                <Link to="/Shuttle">Reserve Room</Link>
-                            </li>
-                            <li>
-                                <Link to="/Catering">Catering Service</Link>
-                            </li>
-                            <li>
-                                <Link to="/Classes">Classes</Link>
-                            </li>
-                            <li>
-                                <Link to="/HomeCare">Home Care</Link>
+    this.toggle = this.toggle.bind(this);
+    this.state = {
+      isOpen: false
+    };
+  }
+  toggle() {
+    this.setState({
+      isOpen: !this.state.isOpen
+    });
+  }
+  render() {
+    return (
+      <div>
+        <Navbar className="header" light expand="md">
+                <NavbarBrand href="/"><span className="header-text">Best Community Service</span></NavbarBrand>
+          <NavbarToggler onClick={this.toggle} />
+          <Collapse isOpen={this.state.isOpen} navbar>
+            <Nav className="ml-auto" navbar>
+                <NavItem>
+                        <NavLink href="/"><span className="header-text">Home</span></NavLink>
+                </NavItem>
+                <NavItem>
+                        <NavLink href="/rooms"><span className="header-text">Reserve Room</span></NavLink>
+                </NavItem>
+                <NavItem>
+                        <NavLink href="/classes"><span className="header-text">Classes</span></NavLink>
+                </NavItem>
 
-                            </li>
-                            <li>
-                                <Link to="/Shuttle">Shuttle Service</Link>
-                            </li>
-                        </ul>
-                    </nav>
-                
-            </div>
-
-        );
-    }
+                <UncontrolledDropdown nav inNavbar>
+                <DropdownToggle nav caret>
+                        <span className="header-text">Services</span>
+                </DropdownToggle>
+                <DropdownMenu right>
+                    <DropdownItem>
+                        Catering
+                    </DropdownItem>
+                    <DropdownItem divider />
+                    <DropdownItem>
+                        Equipment Rental
+                    </DropdownItem>
+                    <DropdownItem divider />
+                    <DropdownItem>
+                        Shuttle
+                    </DropdownItem>
+                    <DropdownItem divider />
+                    <DropdownItem>
+                        Home Care
+                    </DropdownItem>
+                </DropdownMenu>
+                </UncontrolledDropdown>
+            </Nav>
+          </Collapse>
+        </Navbar>
+      </div>
+    );
+  }
 }
 
 export default Header;
