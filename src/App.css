@@ -1,7 +1,9 @@
 :root {
-    --red: #ff6f69;
-    --beige: #ffeead;
-    --yellow: #ffcc5c;
+    --darkblue: #112D32;
+    --medblue: #254E58;
+    --lightblue: #88BDBC;
+    --darkbrown: #4F4A41;
+    --lightbrown: #6E6658;
 }
 
 body {
@@ -16,15 +18,23 @@ img {
 
 header {
     position: fixed;
-    display: block;
     width: 100%;
-    background: lightcoral;
+    background: var(--lightbrown);
     height: 50px;
-    
+}
+
+footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f1f1f1;
+  text-align: center;
 }
 
 h1 {
   text-align: center;
+  color: var(--darkblue);
 }
 
 h3 {
@@ -40,6 +50,7 @@ ul {
   position: fixed;
   height: 100%;
   overflow: auto;
+  text-align: center;
 }
 
 li a {
@@ -47,6 +58,7 @@ li a {
   color: #000;
   padding: 8px 16px;
   text-decoration: none;
+  padding: 20px 0;
 }
 
 li a.active {
@@ -64,12 +76,12 @@ button {
     display: block;
     padding: 5px 10px;
     border: none;
-        background: var(--red);
-    color: var(--yellow);
+    background: var(--darkblue);
+    color: white;
 }
 
 a:hover {
-    color: red;
+    color: green;
 }
 
 
@@ -83,14 +95,15 @@ a:hover {
 .title {
     margin: 0 0 0 1.5%;   
     font-size: 200%;
+    color: var(--lightblue);
 }
 
 .item {
     flex: 25%;
     padding: 20px;
     margin: 0.5em 0.5em 0.5em 0.5em;
-    background: var(--yellow);
-    color: var(--red);
+    background: var(--lightblue);
+    color: var(--darkblue);
 }
 
 .boxes {
@@ -124,4 +137,10 @@ a:hover {
   .item {
     flex-direction: column;
   }
+}
+
+.intro {
+ text-align: center; 
+ margin: 3em 0 0 0;
+ color: var(--darkblue);
 }
