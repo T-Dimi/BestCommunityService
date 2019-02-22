@@ -12,6 +12,7 @@ import {
     DropdownMenu,
     DropdownItem
 } from 'reactstrap';
+import logo from './logo.png';
 
 
 class Header extends Component {
@@ -32,7 +33,7 @@ class Header extends Component {
     return (
       <div>
         <Navbar className="header" light expand="md">
-                <NavbarBrand href="/"><span className="header-text">Best Community Service</span></NavbarBrand>
+                <NavbarBrand href="/"><img src={logo} alt="Logo" /><span className="header-company">Best Community Service</span></NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
@@ -52,19 +53,19 @@ class Header extends Component {
                 </DropdownToggle>
                 <DropdownMenu right>
                     <DropdownItem>
-                        Catering
+                        <NavLink href="/classes"><span className="dropdown-links">Catering</span></NavLink>
                     </DropdownItem>
                     <DropdownItem divider />
                     <DropdownItem>
-                        Equipment Rental
+                        <NavLink href="/equipment"><span className="dropdown-links">Equipment Rental</span></NavLink>
                     </DropdownItem>
                     <DropdownItem divider />
                     <DropdownItem>
-                        Shuttle
+                        <NavLink href="/shuttle"><span className="dropdown-links">Shuttle</span></NavLink>
                     </DropdownItem>
                     <DropdownItem divider />
                     <DropdownItem>
-                        Home Care
+                        <NavLink href="/homecare"><span className="dropdown-links">Home Care</span></NavLink>
                     </DropdownItem>
                 </DropdownMenu>
                 </UncontrolledDropdown>

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import DonateButton from '../buttons/donateButton';
 import SignupButton from '../buttons/signupButton';
+import picture from '../../Assets/images/volunteer.png';
 
 class HomePage extends Component {
     render() {
@@ -28,6 +29,7 @@ class HomePage extends Component {
                         <DonateButton />
                     </div>
                 </div>
+                <img className="home-pic" src={picture} alt="Logo" />
             </div>
         );
     }
