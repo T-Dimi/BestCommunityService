@@ -190,6 +190,10 @@ button {
   margin: 0 0 1.5em 0;
 }
 
+.classTitle {
+  font-size: 1.8em;
+}
+
 #modal {
   top: 30%;
 }

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Card from '../card';
+import Card from '../cards/roomCard';
 import { Container, Row, Col } from 'reactstrap';
 import Hall from '../../Assets/images/hall.png';
 import Hall_2 from '../../Assets/images/banquethall.png';

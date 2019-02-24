@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card, CardImg, CardText, CardBody, CardLink,
   CardTitle, CardSubtitle, Button } from 'reactstrap';
-import Modal from '../components/modal';
+import Modal from '../modal';
 
 const NewCard = (props) => {
   return (
