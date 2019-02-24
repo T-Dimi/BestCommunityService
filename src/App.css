@@ -95,10 +95,11 @@ button {
 .item {
     flex: 25%;
     padding: 20px;
-    margin: 0.5em 0.5em 0.5em 0.5em;
+    margin: 0 0.5em 4em 0.5em;
     background: var(--lightblue);
     color: var(--darkblue);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
 }
 
 .boxes {
@@ -124,10 +125,11 @@ button {
   }
 } */
 
+
+
 @media screen and (max-width: 750px) {
   .item {
     flex: 50%;
-
   }
 }
 
@@ -139,7 +141,7 @@ button {
 
 .intro {
  text-align: center; 
- margin: 3em 0 0 0;
+ margin: 3em 0 3em 0;
  color: var(--darkblue);
  font-size: 1.5em;
  font-family: 'Open Sans Condensed', sans-serif;

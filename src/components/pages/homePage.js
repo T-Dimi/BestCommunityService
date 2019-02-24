@@ -11,11 +11,13 @@ class HomePage extends Component {
                 <h1>
                     GIVE VOLUNTEER SERVICE WHERE YOU LIVE TODAY!
                 </h1>
-                <p className="intro">
-                    At Best Community Service, we believe that nothing should get in the way of organizations and volunteers 
-                    coming together to do good things for the community, so we help make this happen for free.
+  
+                <div class="container">
+                    <p className="intro">
+                        At Best Community Service, we believe that nothing should get in the way of organizations and volunteers
+                        coming together to do good things for the community, so we help make this happen for free.
                 </p>
-                <div class="grid">
+                    <div class="row">
                     <div class="item">
                         <h3>Volunteer now!</h3>
                         <p className="boxes">Sign up today to start making a difference in the community. 
@@ -31,7 +33,7 @@ class HomePage extends Component {
                     
                 </div>
                 <Carousel className="Carousel" />
-                          
+                </div>  
             </div>
             
         );
