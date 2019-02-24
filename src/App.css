@@ -28,7 +28,7 @@ h1 {
   text-align: center;
   color: var(--darkblue);
   font-family: 'Lora', serif;
-
+  text-shadow: 1px 1px 2px gray;
 }
 
 h3 {
@@ -53,10 +53,9 @@ button {
 
 .header {
   background-color: var(--orange);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   position: fixed;
   width: 100%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  overflow: hidden;
 }
 .header-company{
   vertical-align: middle;
@@ -118,6 +117,9 @@ button {
 }
 
 
+
+
+
 @media screen and (max-width: 750px) {
   .item {
     flex: 50%;
@@ -136,7 +138,7 @@ button {
  color: var(--darkblue);
  font-size: 1.5em;
  font-family: 'Open Sans Condensed', sans-serif;
-
+   text-shadow: 1px 1px 1px gray;
 }
 
 .home-pic {
@@ -172,6 +174,5 @@ button {
 }
 
 .contained {
- text-align: center;
- 
+  text-align: center;
 }
