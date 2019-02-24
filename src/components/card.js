@@ -1,18 +1,20 @@
 import React from 'react';
 import { Card, CardImg, CardText, CardBody, CardLink,
   CardTitle, CardSubtitle, Button } from 'reactstrap';
+import Modal from '../components/modal';
 
 const NewCard = (props) => {
   return (
     <div>
-      <Card>
+      <Card className="edit-card">
         <CardBody>
           <CardTitle className="cardTitle">{props.name}</CardTitle>
+          <CardSubtitle>{props.price}</CardSubtitle>
         </CardBody>
         <img width="100%" src={props.pic} alt="Card image cap" />
         <CardBody>
-          <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-          <Button>Reserve Room</Button>
+          <CardText>{props.text}</CardText>
+          <Modal />
         </CardBody>
       </Card>
     </div>

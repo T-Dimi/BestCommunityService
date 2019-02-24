@@ -32,8 +32,8 @@ class Header extends Component {
   }
   render() {
     return (
-      <div>
-        <Navbar className="header" light expand="md">
+      <header>
+        <Navbar light expand="md">
           <NavbarBrand href="/"><img className="header-img" src={logo} alt="Logo" /><span className="header-company">Best Community Service</span></NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
@@ -42,7 +42,7 @@ class Header extends Component {
                 <NavLink href="/"><span className="header-text">Home</span></NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/rooms"><span className="header-text">Reserve Room</span></NavLink>
+                <NavLink href="/rooms"><span className="header-text">Reserve Hall</span></NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="/classes"><span className="header-text">Classes</span></NavLink>
@@ -73,7 +73,7 @@ class Header extends Component {
             </Nav>
           </Collapse>
         </Navbar>
-      </div>
+        </header>
     );
   }
 }

@@ -8,7 +8,7 @@ class HomePage extends Component {
         return (
 
             <div className="page">
-                <h1>
+                <h1 className="page-title">
                     GIVE VOLUNTEER SERVICE WHERE YOU LIVE TODAY!
                 </h1>
   
