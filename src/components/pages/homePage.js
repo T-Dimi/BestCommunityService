@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import DonateButton from '../buttons/donateButton';
 import SignupButton from '../buttons/signupButton';
-import picture from '../../Assets/images/volunteer.png';
+import Carousel from '../carousel';
 
 class HomePage extends Component {
     render() {
@@ -28,9 +28,12 @@ class HomePage extends Component {
                             Your donation is greatly appreciated and is 100% tax-deductible.</p>
                         <DonateButton />
                     </div>
+                    
                 </div>
-                <img className="home-pic" src={picture} alt="Logo" />
+                <Carousel className="Carousel" />
+                          
             </div>
+            
         );
     }
 }

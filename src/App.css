@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lora|Open+Sans+Condensed:300');
+
 :root {
     --darkblue: #112D32;
     --medblue: #254E58;
@@ -10,16 +12,9 @@ body {
   margin: 0;
 }
 
-img {
-    vertical-align: middle;
-    padding: 0 1em 0 0;
-    height: 50px;
-    width: 80px;
-}
-
 
 footer {
-  position: relative;
+  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -32,10 +27,14 @@ footer {
 h1 {
   text-align: center;
   color: var(--darkblue);
+  font-family: 'Lora', serif;
+  text-shadow: 1px 1px 2px gray;
 }
 
 h3 {
   text-align: center;
+  font-family: 'Lora', serif;
+  
 }
 
 
@@ -54,6 +53,7 @@ button {
 
 .header {
   background-color: var(--orange);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   position: fixed;
   width: 100%;
 }
@@ -98,12 +98,15 @@ button {
     margin: 0.5em 0.5em 0.5em 0.5em;
     background: var(--lightblue);
     color: var(--darkblue);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .boxes {
   font-size: 0.9em;
   text-align:justify;
   padding: 0.5em 0 0 2em;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.1em;
 }
 
 .grid {
@@ -138,6 +141,9 @@ button {
  text-align: center; 
  margin: 3em 0 0 0;
  color: var(--darkblue);
+ font-size: 1.5em;
+ font-family: 'Open Sans Condensed', sans-serif;
+   text-shadow: 1px 1px 1px gray;
 }
 
 .home-pic {
@@ -145,4 +151,24 @@ button {
   height: 40%;
   margin: 0 0 3em 0;
   align-content: center;
+}
+
+.listbox {
+    height: 200em;
+    padding: 200em;
+    margin: 200em;
+}
+
+.header-img {
+    vertical-align: middle;
+    padding: 0 1em 0 0;
+    height: 50px;
+    width: 80px;
+}
+
+.btn { 
+  font-family: 'Lora', serif;
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%
 }

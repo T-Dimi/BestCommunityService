@@ -15,6 +15,7 @@ import {
 import logo from './logo.png';
 
 
+
 class Header extends Component {
   constructor(props) {
     super(props);
@@ -33,7 +34,7 @@ class Header extends Component {
     return (
       <div>
         <Navbar className="header" light expand="md">
-                <NavbarBrand href="/"><img src={logo} alt="Logo" /><span className="header-company">Best Community Service</span></NavbarBrand>
+                <NavbarBrand href="/"><img className="header-img" src={logo} alt="Logo" /><span className="header-company">Best Community Service</span></NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
@@ -53,7 +54,7 @@ class Header extends Component {
                 </DropdownToggle>
                 <DropdownMenu right>
                     <DropdownItem>
-                        <NavLink href="/classes"><span className="dropdown-links">Catering</span></NavLink>
+                        <NavLink href="/catering"><span className="dropdown-links">Catering</span></NavLink>
                     </DropdownItem>
                     <DropdownItem divider />
                     <DropdownItem>
