@@ -16,6 +16,7 @@ header {
   background-color: var(--orange);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   position: fixed;
+  z-index: 1;
   width: 100%;
 
 }
@@ -66,11 +67,13 @@ button {
 .header-company{
   vertical-align: middle;
   color: #F2F2F2;
-  font-size: 1.5em;
+  font-size: 1.6em;
 }
 
 .header-text {
+  vertical-align: middle;
   color: #F2F2F2;
+  font-size: 1.2em;
 }
 
 .footer-text {
@@ -99,7 +102,7 @@ button {
 }
 
 .item {
-    flex: 25%;
+    flex: 33%;
     padding: 20px;
     margin: 0 0.5em 4em 0.5em;
     background: var(--lightblue);
@@ -121,10 +124,6 @@ button {
   flex-wrap: wrap;
   margin: 5em 0;
 }
-
-
-
-
 
 @media screen and (max-width: 750px) {
   .item {
@@ -151,6 +150,11 @@ button {
   height: 40%;
   margin: 0 0 3em 0;
   align-content: center;
+}
+
+.signup-button {
+  font-family: 'Lora', serif;
+  background: red;
 }
 
 .listbox {
@@ -194,7 +198,23 @@ button {
   font-size: 1.8em;
 }
 
+.volunteer-form {
+  margin-top: 2em;
+  padding: 3em 2em 2em 2em;
+  background: var(--lightblue);
+}
+
+.vol-btn {
+  margin: 1em 30%;
+  background: var(--darkblue);
+  color: white;
+}
+
+
+
 #modal {
   top: 30%;
 }
+
+
 
