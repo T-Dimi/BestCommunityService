@@ -44,7 +44,6 @@ h3 {
   
 }
 
-
 button {
     margin: 0px auto;
     display: block;
@@ -52,6 +51,7 @@ button {
     border: none;
     background: var(--darkblue);
     color: white;
+
 }
 
 .links {
@@ -202,15 +202,35 @@ button {
   margin-top: 2em;
   padding: 3em 2em 2em 2em;
   background: var(--lightblue);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 .vol-btn {
-  margin: 1em 30%;
+  padding: 1em 0;
+  margin: 1em 37%;
+  width: 25%;
+  font-size: 1.2em;
   background: var(--darkblue);
   color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
+.donate-btn {
+  padding: 1em 0;
+  margin: 1em 37%;
+  width: 25%;
+  font-size: 1.3em;
+  background: var(--darkblue);
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
+}
+
+.radioGroup {
+  font-size: 2em;
+}
 
 #modal {
   top: 30%;
