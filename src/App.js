@@ -17,6 +17,7 @@ import RoomPage from './components/pages/roomPage';
 import VolunteerPage from './components/pages/volunteerPage';
 import DonatePage from './components/pages/donatePage';
 import LoginPage from './components/pages/loginPage';
+import SignupPage from './components/pages/signupPage';
 import './App.css';
 
 class App extends Component {
@@ -26,6 +27,7 @@ class App extends Component {
         <div className="App">
             <Header />
             <Route exact path='/' component={HomePage} />
+            <Route exact path='/Signup' component={SignupPage} />
             <Route exact path='/Login' component={LoginPage} />
             <Route exact path='/Volunteer' component={VolunteerPage} />
             <Route exact path='/Donate' component={DonatePage} />
