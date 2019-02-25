@@ -15,7 +15,7 @@ class DonatePage extends Component {
                 <Container>
                     <Row>
                     <Col>
-                    <p className="intro">
+                    <p className="intro-donate">
                     Your charitable donation will help fund all of our services that we offer here at Best Community
                     for the community. We appreciate any and all amounts that you are able to donate.
                     </p>
