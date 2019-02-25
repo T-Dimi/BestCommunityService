@@ -5,15 +5,16 @@ class ShuttlePage extends Component {
         return (
 
             <div className="page">
-                <h1>
+                <h1 className="page-title">
                     Shuttle Page Content
                 </h1>
-                <p>
-                    Lorem ipsum dolor sit amet, vel eripuit docendi albucius id, ea iusto vitae scriptorem nec. Novum accusata mei ex. Adhuc inani mediocritatem te eum, id ancillae detracto mea. No cum possim utamur imperdiet. Erant forensibus usu an, aeque quaestio per no.
-
-                    Blandit nominati consulatu est ad, eum fugit tritani debitis in. Munere repudiare constituam cu mel. Minimum voluptua ad vim, dico oratio percipit has at. Timeam accommodare ea his. Mea enim epicuri complectitur te, ad eum civibus intellegebat. Cum ad omittam abhorreant quaerendum.
-
-                    Soluta efficiendi cum ea. Cibo vocibus in sea, eum quem agam mucius eu, ne has
+                <p className="intro">
+                  The Shuttle page will have a card layout with different menu options. There will
+                  be a total of the type of shuttles that will be available. There is also going to 
+                  be a form that will let the user choose which time they need the shuttle.
+                  There will also be another form showing the times that the shuttle runs as well as
+                  where the shuttle will take the customer. Once the user choose the time and place they
+                  would like the shuttle to take them, there will be a button to confirm their shuttle.
                 </p>
             </div>
         );

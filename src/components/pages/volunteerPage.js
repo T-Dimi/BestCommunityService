@@ -45,7 +45,7 @@ class VolunteerPage extends Component {
                             </Col>
                             </Row>
 
-                            <Button className="vol-btn">Sign in</Button>
+                            <Button className="vol-btn">Sign up</Button>
                         </Form>
                     </Col>
                     </Row>

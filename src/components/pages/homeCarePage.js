@@ -5,16 +5,16 @@ class HomeCarePage extends Component {
         return (
 
             <div className="page">
-                <h1>
-                    HomeCare Page Content
+                <h1 className="page-title">
+                    Home Care Page Content
                 </h1>
-                <p>
-                    Lorem ipsum dolor sit amet, vel eripuit docendi albucius id, ea iusto vitae scriptorem nec. Novum accusata mei ex. Adhuc inani mediocritatem te eum, id ancillae detracto mea. No cum possim utamur imperdiet. Erant forensibus usu an, aeque quaestio per no.
-
-                    Blandit nominati consulatu est ad, eum fugit tritani debitis in. Munere repudiare constituam cu mel. Minimum voluptua ad vim, dico oratio percipit has at. Timeam accommodare ea his. Mea enim epicuri complectitur te, ad eum civibus intellegebat. Cum ad omittam abhorreant quaerendum.
-
-                    Soluta efficiendi cum ea. Cibo vocibus in sea, eum quem agam mucius eu, ne has
-                </p>
+                <p className="intro">
+                  The Home Care page will have a card layout with different menu options. Each of 
+                  these cards will show the different types of home care that is available. The cards
+                  will also show pictures of the rooms that are available to reside in for the home card.
+                  It will let the user choose which type of home care they would like to sign up for with a button
+                  to confirm their choices. 
+                  </p>
             </div>
         );
     }
