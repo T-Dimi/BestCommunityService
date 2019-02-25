@@ -70,6 +70,9 @@ class Header extends Component {
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
+              <NavItem>
+                <NavLink href="/login"><span className="header-login">Sign In</span></NavLink>
+              </NavItem>
             </Nav>
           </Collapse>
         </Navbar>

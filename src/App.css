@@ -76,6 +76,15 @@ button {
   font-size: 1.2em;
 }
 
+.header-login {
+  vertical-align: middle;
+  color: #F2F2F2;
+  font-size: 1.2em;
+  background: #254E58;
+  padding: 0.3em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .footer-text {
     color: #F2F2F2;
     align-content: center;

@@ -35,7 +35,7 @@ class LoginPage extends Component {
                 <Button className="login-btn">Sign in</Button>
                 <div className='signup-login'>
                     Don't have an account?<br></br>
-                    <Link to='/Donate'>Sign Up</Link>
+                    <Link to='/Signup'>Sign Up</Link>
                 </div>
             </Form>
 
