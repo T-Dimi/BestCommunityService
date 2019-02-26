@@ -1,5 +1,10 @@
 import React, { Component } from 'react';
-
+import { Col, Row, Button, Form, FormGroup, Label, Input, FormText, Container } from 'reactstrap';
+import Card from '../cards/cateringCard';
+import italian from '../../Assets/images/ItalianBuffet.png';
+import seafood from '../../Assets/images/SeafoodBuffet.png';
+import thai from '../../Assets/images/ThaiFood.png';
+import mexican from '../../Assets/images/MexicanFood.png';
 
 class CateringPage extends Component {
     render() {
@@ -7,14 +12,48 @@ class CateringPage extends Component {
 
             <div className="page">
                 <h1 className="page-title">
-                    Catering Page Content
+                    Meal Catering
                 </h1>
-                <p className="intro">
-                  The catering page will have a card layout with different menu options. There will
-                  be a total of about 5 to 6 different meal options. There will also be a order button
-                  that the user can click on to confrim which meal option they would like to choose.
-                  There will be a description of what is included in the meal. 
-                </p>
+                <Container>
+                    <Row>
+                        <Col xs="6">
+                            <Card 
+                                title='Wedding Meal'
+                                name='Italian Buffet' 
+                                price='$29.99 / Person' 
+                                pic={italian}
+                                header='Amount of People'
+                            />
+                        </Col>
+                        <Col xs="6">
+                            <Card 
+                                title='Wedding Meal'
+                                name='Seafood Dinner' 
+                                price='$39.99 / Person' 
+                                pic={seafood}
+                                header='Amount of People'
+                            />
+                        </Col>
+                        <Col xs="6">
+                            <Card 
+                                title='Cuisine'
+                                name='Thai' 
+                                price='$24.99 / Person' 
+                                pic={thai}
+                                header='Amount of People'
+                            />
+                        </Col>
+                        <Col xs="6">
+                            <Card 
+                                title='Cuisine'
+                                name='Mexican' 
+                                price='$24.99 / Person' 
+                                pic={mexican}
+                                header='Amount of People'
+                            />
+                        </Col>
+                    </Row>
+                </Container>
             </div>
         );
     }

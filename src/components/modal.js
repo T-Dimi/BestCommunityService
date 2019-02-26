@@ -1,7 +1,8 @@
 /* eslint react/no-multi-comp: 0, react/prop-types: 0 */
 
 import React from 'react';
-import { Button, Modal, ModalHeader, ModalBody, ModalFooter, Input } from 'reactstrap';
+import { Button, Modal, ModalHeader, ModalBody, ModalFooter, Input,
+FormGroup, Label } from 'reactstrap';
 
 class NewModal extends React.Component {
   constructor(props) {
@@ -24,12 +25,14 @@ class NewModal extends React.Component {
       <div>
         <Button color="info" onClick={this.toggle}>{this.props.buttonLabel}Reserve Room</Button>
         <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className} id='modal'>
-          <ModalHeader toggle={this.toggle}>Reserve Days</ModalHeader>
-          <Input type="select" bsSize="lg">
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            </Input>    
+          <ModalHeader toggle={this.toggle}>{this.props.header}</ModalHeader>
+          <Input 
+            type="number"
+            name="number"
+            id="Number"
+            placeholder="0"
+          />
+     
 
           <ModalFooter>
             <Button color="primary" onClick={this.toggle}>Confirm</Button>{' '}

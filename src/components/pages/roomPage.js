@@ -24,6 +24,7 @@ class RoomPage extends Component {
                             we organize wedding receptions and banquets for up to 50 Guests. Cream and 
                             gold walls, crystal chandeliers and subtle decorations reflect your dreams 
                             about an elegant wedding reception or a banquet in a real palatial setting.'
+                            header='Day(s)'
                         />
                     </Col>
                     <Col xs="6">
@@ -35,6 +36,7 @@ class RoomPage extends Component {
                             decorated with Art Nouveau is just a spectacular beginning. 
                             Thanks to outstanding acoustics and modern sound system, the celebration 
                             will forever remain in the memory of the bride and groom and their Guests.'
+                            header='Day(s)'
                         />
                     </Col>
                     <Col xs="6">
@@ -46,7 +48,7 @@ class RoomPage extends Component {
                             quinceañeras, anniversary parties, or company conferences. The newly remodeled 
                             banquet hall accommodates up to 300 people for banquet-style seating or 400 people 
                             for theater-style seating. It can also be divided into two smaller rooms for weekday rentals.'
-
+                            header='Day(s)'
                         />
                     </Col>
                     <Col xs="6">
@@ -58,6 +60,7 @@ class RoomPage extends Component {
                             religious, non religious and civil funerals with a modern but comfortable feel. This funeral 
                             will hold 150 seated and 50 standing. There are large parking facilities with plenty of off and 
                             on street parking. The hall can be changed to cater for any size of funeral from small to very large.'
+                            header='Day(s)'
                         />
                     </Col>
                     </Row>

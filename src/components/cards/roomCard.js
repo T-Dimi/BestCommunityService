@@ -14,7 +14,7 @@ const NewCard = (props) => {
         <img width="100%" src={props.pic} alt="Card image cap" />
         <CardBody>
           <CardText>{props.text}</CardText>
-          <Modal />
+          <Modal {...props}/>
         </CardBody>
       </Card>
     </div>

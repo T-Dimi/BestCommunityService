@@ -1,4 +1,12 @@
 import React, { Component } from 'react';
+import { Col, Row, Button, Form, FormGroup, Label, Input, FormText, Container } from 'reactstrap';
+import Card from '../cards/equipmentCard';
+import projector from '../../Assets/images/Projector.png';
+import fogMachine from '../../Assets/images/fogMachine.png';
+import tent from '../../Assets/images/Tent.png';
+import cottonCandy from '../../Assets/images/cottonCandy.png';
+import popcorn from '../../Assets/images/popcorn.png';
+import snowcone from '../../Assets/images/snowcone.png';
 
 class Equipment extends Component {
     render() {
@@ -6,26 +14,36 @@ class Equipment extends Component {
 
             <div className="page">
                 <h1 className="page-title">
-                    Equipment Page Content
+                    Rental Equipment
                 </h1>
-                <div class="grid">
-                    <div class="item">
-                        <h1>Equipment 1</h1>
-                        <button>Rent Now</button>
-                    </div>
-                    <div class="item">
-                        <h1>Equipment 2</h1>
-                        <button>Rent Now</button>
-                    </div>
-                    <div class="item">
-                        <h1>Equipment 3</h1>
-                        <button>Rent Now</button>
-                    </div>
-                    <div class="item featured">
-                        <h1>Equipment 4</h1>
-                        <button>Rent Now</button>
-                    </div>
-                </div>
+                <Container>
+                    <Row>
+                        <Col>
+                            <Card 
+                                pic={projector}
+                                title='Project' 
+                                text='$102 / day'
+                                pic_2={fogMachine}
+                                title_2='Fog Machine' 
+                                text_2='$53 / day'
+                                pic_3={tent}
+                                title_3='Tent Wall - 20 White' 
+                                text_3='$22 / day'
+                            />
+                            <Card 
+                                pic={cottonCandy}
+                                title='Cotton Candy Machine' 
+                                text='$73 / day'
+                                pic_2={popcorn}
+                                title_2='Popcorn Machine' 
+                                text_2='$73 / day'
+                                pic_3={snowcone}
+                                title_3='Snow Cone Machine' 
+                                text_3='$73 / day'
+                            />
+                        </Col>
+                    </Row>
+                </Container>
             </div>
         );
     }

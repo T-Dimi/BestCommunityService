@@ -228,6 +228,15 @@ button {
   text-align: center;
 }
 
+.equip-text {
+  text-align: center;
+  font-size: 1.1em;
+}
+
+.equip-Card {
+  margin-bottom: 2em;
+}
+
 .contained {
   text-align: center;
 }
@@ -238,6 +247,8 @@ button {
 
 .classTitle {
   font-size: 1.8em;
+  text-align: center;
+
 }
 
 .volunteer-form {
@@ -278,14 +289,24 @@ button {
 
 }
 
+.catering-header {
+  text-align: center;
+  font-size: 2em;
+  background: #88BDBC;
+}
+
+.catering-price {
+  text-align: center;
+}
+
 .radioGroup {
   font-size: 2em;
 }
 
-
 #modal {
   top: 30%;
 }
+
 
 
 
