@@ -331,6 +331,41 @@ button {
   margin-top: 4em;
 }
 
+.homecare-overlay {
+  margin-top: 2em;
+  margin-left: 1em;
+  padding: 4em;
+  background: rgba(0, 0, 0, 0.5);
+  border: 2px solid white;
+  width: 50%;
+}
+
+.homecare-title {
+  text-align: center;
+  font-size: 3em;
+}
+
+.homecare-text {
+ text-align: center;
+ font-size: 1.5em;
+}
+
+.homecare-input {
+  margin-top: 1em;
+  height: 3em;
+}
+
+.homecare-location{
+  text-align: center;
+  font-size: 2em;
+  margin-top: 1em;
+  color: #88BDBC;
+}
+
+.homecare-btn {
+  margin-top: 1em;
+  background: red;
+}
 
 
 

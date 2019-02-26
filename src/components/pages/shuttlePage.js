@@ -9,7 +9,7 @@ class ShuttlePage extends Component {
 
             <div className="page">
                 <h1 className="page-title">
-                    Shuttle Page Content
+                    Shuttle Service
                 </h1>
                 <Container className="shuttle-contained">
                     <Row>
