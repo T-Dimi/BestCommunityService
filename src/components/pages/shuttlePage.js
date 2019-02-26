@@ -14,7 +14,7 @@ class ShuttlePage extends Component {
                 <Container className="shuttle-contained">
                     <Row>
                         <Col xs="6">
-                        <CardImg width="100%" src={shuttle}/>
+                        <CardImg className="shuttle-img" width="100%" src={shuttle}/>
                         </Col>
                         <Col xs="6">
                         <Card />
