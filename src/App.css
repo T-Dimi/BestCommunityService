@@ -307,6 +307,29 @@ button {
   top: 30%;
 }
 
+.shuttle-contained {
+  text-align: center;
+  margin-top: 8em;
+}
+
+.shuttle-form {
+  margin-top: 2.5em;
+  margin-left: 2em;
+}
+
+#shuttledropdown {
+  margin-top: 4%;
+  width: 12em;
+  margin-left: -1.3em;
+}
+
+#shuttlecheckbox {
+  margin-top: 2em;
+}
+
+.shuttlebtn {
+  margin-top: 4em;
+}
 
 
 

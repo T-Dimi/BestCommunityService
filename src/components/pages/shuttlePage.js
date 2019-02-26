@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import { Container, Row, Col, CardImg } from 'reactstrap';
+import Card from '../cards/shuttleCard';
+import shuttle from '../../Assets/images/shuttle.png';
 
 class ShuttlePage extends Component {
     render() {
@@ -8,14 +11,16 @@ class ShuttlePage extends Component {
                 <h1 className="page-title">
                     Shuttle Page Content
                 </h1>
-                <p className="intro">
-                  The Shuttle page will have a card layout with different menu options. There will
-                  be a total of the type of shuttles that will be available. There is also going to 
-                  be a form that will let the user choose which time they need the shuttle.
-                  There will also be another form showing the times that the shuttle runs as well as
-                  where the shuttle will take the customer. Once the user choose the time and place they
-                  would like the shuttle to take them, there will be a button to confirm their shuttle.
-                </p>
+                <Container className="shuttle-contained">
+                    <Row>
+                        <Col xs="6">
+                        <CardImg width="100%" src={shuttle}/>
+                        </Col>
+                        <Col xs="6">
+                        <Card />
+                        </Col>
+                    </Row>
+                </Container>
             </div>
         );
     }
