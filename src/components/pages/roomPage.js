@@ -25,6 +25,7 @@ class RoomPage extends Component {
                             gold walls, crystal chandeliers and subtle decorations reflect your dreams 
                             about an elegant wedding reception or a banquet in a real palatial setting.'
                             header='Day(s)'
+                            buttonLabel='Reserve Room'
                         />
                     </Col>
                     <Col xs="6">
@@ -37,6 +38,7 @@ class RoomPage extends Component {
                             Thanks to outstanding acoustics and modern sound system, the celebration 
                             will forever remain in the memory of the bride and groom and their Guests.'
                             header='Day(s)'
+                            buttonLabel='Reserve Room'
                         />
                     </Col>
                     <Col xs="6">
@@ -49,6 +51,7 @@ class RoomPage extends Component {
                             banquet hall accommodates up to 300 people for banquet-style seating or 400 people 
                             for theater-style seating. It can also be divided into two smaller rooms for weekday rentals.'
                             header='Day(s)'
+                            buttonLabel='Reserve Room'
                         />
                     </Col>
                     <Col xs="6">
@@ -61,6 +64,7 @@ class RoomPage extends Component {
                             will hold 150 seated and 50 standing. There are large parking facilities with plenty of off and 
                             on street parking. The hall can be changed to cater for any size of funeral from small to very large.'
                             header='Day(s)'
+                            buttonLabel='Reserve Room'
                         />
                     </Col>
                     </Row>

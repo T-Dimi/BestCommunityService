@@ -23,6 +23,7 @@ class CateringPage extends Component {
                                 price='$29.99 / Person' 
                                 pic={italian}
                                 header='Amount of People'
+                                buttonLabel='Reserve Meal'
                             />
                         </Col>
                         <Col xs="6">
@@ -32,6 +33,7 @@ class CateringPage extends Component {
                                 price='$39.99 / Person' 
                                 pic={seafood}
                                 header='Amount of People'
+                                buttonLabel='Reserve Meal'
                             />
                         </Col>
                         <Col xs="6">
@@ -41,6 +43,7 @@ class CateringPage extends Component {
                                 price='$24.99 / Person' 
                                 pic={thai}
                                 header='Amount of People'
+                                buttonLabel='Reserve Meal'
                             />
                         </Col>
                         <Col xs="6">
@@ -50,6 +53,7 @@ class CateringPage extends Component {
                                 price='$24.99 / Person' 
                                 pic={mexican}
                                 header='Amount of People'
+                                buttonLabel='Reserve Meal'
                             />
                         </Col>
                     </Row>

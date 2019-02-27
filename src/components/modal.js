@@ -23,7 +23,7 @@ class NewModal extends React.Component {
   render() {
     return (
       <div>
-        <Button color="info" onClick={this.toggle}>{this.props.buttonLabel}Reserve Room</Button>
+        <Button color="info" onClick={this.toggle}>{this.props.buttonLabel}</Button>
         <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className} id='modal'>
           <ModalHeader toggle={this.toggle}>{this.props.header}</ModalHeader>
           <Input 
