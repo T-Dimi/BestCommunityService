@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, CardTitle, CardText, CardImg, CardImgOverlay, InputGroup,
-InputGroupAddon, Input, Button } from 'reactstrap';
+InputGroupAddon, Input } from 'reactstrap';
 import homecare from '../../Assets/images/Homecare.png';
 
 const Example = (props) => {

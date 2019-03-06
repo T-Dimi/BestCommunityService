@@ -18,7 +18,7 @@ import VolunteerPage from './components/pages/volunteerPage';
 import DonatePage from './components/pages/donatePage';
 import LoginPage from './components/pages/loginPage';
 import SignupPage from './components/pages/signupPage';
-import './App.css';
+import './Assets/css/App.css';
 
 class App extends Component {
   render() {

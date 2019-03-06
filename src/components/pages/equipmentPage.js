@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Col, Row, Button, Form, FormGroup, Label, Input, FormText, Container } from 'reactstrap';
+import { Col, Row, Container } from 'reactstrap';
 import Card from '../cards/equipmentCard';
 import projector from '../../Assets/images/Projector.png';
 import fogMachine from '../../Assets/images/fogMachine.png';

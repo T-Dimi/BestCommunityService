@@ -1,8 +1,7 @@
 /* eslint react/no-multi-comp: 0, react/prop-types: 0 */
 
 import React from 'react';
-import { Button, Modal, ModalHeader, ModalBody, ModalFooter, Input,
-FormGroup, Label } from 'reactstrap';
+import { Button, Modal, ModalHeader, ModalFooter, Input } from 'reactstrap';
 
 class NewModal extends React.Component {
   constructor(props) {

@@ -1,6 +1,5 @@
 import React from 'react';
-import { Form, FormGroup, Label, Input, Col, Card, CardImg, CardText, CardBody, CardLink,
-  CardTitle, CardSubtitle, Button } from 'reactstrap';
+import { Form, FormGroup, Label, Input, Col, Button } from 'reactstrap';
 
 
 const NewCard = (props) => {

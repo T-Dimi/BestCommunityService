@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Container, Row, Col } from 'reactstrap';
 import DonateButton from '../buttons/donateButton';
 import SignupButton from '../buttons/signupButton';
 import Carousel from '../carousel';

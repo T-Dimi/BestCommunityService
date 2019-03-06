@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import { CardImg } from 'reactstrap';
-import homecare from '../../Assets/images/Homecare.png';
 import Card from '../cards/homecareCard';
 
 class HomeCarePage extends Component {

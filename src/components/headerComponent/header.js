@@ -12,7 +12,7 @@ import {
   DropdownMenu,
   DropdownItem
 } from 'reactstrap';
-import logo from './logo.png';
+import logo from '../../Assets/images/logo.png';
 
 
 

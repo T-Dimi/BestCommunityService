@@ -1,6 +1,6 @@
 import React from 'react';
-import { Card, Button, CardHeader, CardFooter, CardBody,
-  CardTitle, CardText, CardImg, CardSubtitle } from 'reactstrap';
+import { Card, CardHeader, CardBody,
+  CardTitle, CardText, CardSubtitle } from 'reactstrap';
 import Modal from '../modal';
 
 
