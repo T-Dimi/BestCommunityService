@@ -4,10 +4,34 @@ import { Link } from 'react-router-dom'
 
 
 class LoginPage extends Component {
-    render() {
-        return (
+    constructor(props) {
+        super(props);
 
+        this.state = {
+            username: "",
+            password: ""
+        };
+        
+    }
+
+    handleChange = event => {
+        this.setState({
+            [event.target.id]: event.target.value
+        });
+    }
+
+    handleSubmit = event => {
+        event.preventDefault();
+    }
+
+ 
+
+    render() {
+       
+        return (
+            
             <div className="page-login">
+            
             <Container>
             <Col>
             <Row>
